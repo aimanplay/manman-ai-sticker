@@ -1,0 +1,8 @@
+# 5 个脚本只用到这两个库；Python 3.9+ 即可。
+# 安装：python3 -m pip install -r requirements.txt （Windows 常用 py -3）
+Pillow>=9.0
+numpy>=1.21
+
+# 可选：装上后 make_gif.py 的抠图更快；不装会自动走纯 numpy 实现，结果一致。
+# Windows / macOS / Linux 都有预编译包，但在部分环境里安装较慢，故默认不装。
+# scipy>=1.8
